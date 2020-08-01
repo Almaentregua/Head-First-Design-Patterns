@@ -1,0 +1,2 @@
+# Head First Design Patterns
+I am using this repo to save my notes and progress of the book "Head First Design Patterns: A Brain-Friendly Guide" By Eric Freeman, Elisabeth Robson, Kathy Sierra and Bert Bates
