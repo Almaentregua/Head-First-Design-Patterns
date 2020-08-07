@@ -1,5 +1,6 @@
 # Head First Design Patterns
-I am using this repo to save my notes and progress of the book "Head First Design Patterns: A Brain-Friendly Guide" By Eric Freeman, Elisabeth Robson, Kathy Sierra and Bert Bates
+I am using this repo to save my notes and progress of the book "Head First Design Patterns: A Brain-Friendly Guide" By Eric Freeman, Elisabeth Robson, Kathy Sierra and Bert Bates.
+Book material: https://www.wickedlysmart.com/head-first-design-patterns/
 
 ## The Strategy Pattern
 
