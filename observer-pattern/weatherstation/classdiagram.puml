@@ -1,0 +1,43 @@
+@startuml
+
+Interface Subject {
+    registerObserver()
+    removeObserver()
+    notifyObserver()
+}
+
+Class WeatherData implements Subject {
+    registerObserver()
+    removeObserver()
+    notifyObserver()
+    getTemperature()
+    getHumidity()
+    setPressure()
+    measureChanged()
+}
+
+Interface Observer {
+    update()
+}
+
+Interface DisplayElement {
+    display()
+}
+
+Class CurrentConditionDisplay implements Observer, DisplayElement {
+    update()
+    display()
+}
+
+Class HeatIndexDisplay implements Observer, DisplayElement {
+    update()
+    display()
+}
+
+
+Subject o-- Observer
+WeatherData o-- CurrentConditionDisplay
+WeatherData o-- HeatIndexDisplay
+
+
+@enduml

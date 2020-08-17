@@ -1,0 +1,60 @@
+@startuml
+
+Abstract Class Duck {
+    FlyBehaviour flyBehaviour
+    QuackBehaviour quackBehaviour
+    swim()
+    {abstract} display()
+    performQuack()
+    performFly()
+    setFlyBehavior()
+}
+
+Class MallardDuck extends Duck{
+    display()
+}
+
+Class RedheadDuck extends Duck {
+    display()
+}
+
+Class RubberDuck extends Duck {
+    display()
+}
+
+Class DecoyDuck extends Duck {
+    display()
+}
+
+Interface FlyBehaviour {
+    fly()
+}
+
+Class FlyWithWings implements FlyBehaviour{
+    fly()
+}
+
+Class FlyNoWay implements FlyBehaviour{
+    fly()
+}
+
+Interface QuackBehaviour {
+    quack()
+}
+
+Class Quack implements QuackBehaviour {
+    quack()
+}
+
+Class Squeak implements QuackBehaviour {
+    quack()
+}
+
+Class MuteQuack implements QuackBehaviour {
+    quack()
+}
+
+Duck o-- FlyBehaviour
+Duck o-- QuackBehaviour
+
+@enduml

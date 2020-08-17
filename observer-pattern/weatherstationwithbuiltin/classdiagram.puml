@@ -1,0 +1,41 @@
+@startuml
+
+Class Observable {
+    addObserver()
+    deleteObserver()
+    notifyObservers()
+    setChanged()
+}
+
+Class WeatherData extends Observable {
+    getTemperature()
+    getHumidity()
+    getPressure
+}
+
+Interface Observer {
+    update()
+}
+
+Interface DisplayElement {
+    display()
+}
+
+Class GeneralDisplay implements Observer, DisplayElement{
+    update()
+    display()
+}
+
+Class StaticsDisplay implements Observer, DisplayElement{
+    update()
+    display()
+}
+
+Class ForecastDisplay implements Observer, DisplayElement{
+    update()
+    display()
+}
+
+Observable o-- Observer
+
+@enduml
