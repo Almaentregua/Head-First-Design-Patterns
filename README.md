@@ -10,6 +10,10 @@ Defines a family of algorithms, encapsulates each one, and makes them interchang
 
 Defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and update automatically.
 
+## The Decorator Pattern
+
+Attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+
 ## Design Principles
 
 * Identify the aspects of your application that vary and separate them from what stays the same.
