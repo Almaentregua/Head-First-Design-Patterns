@@ -1,0 +1,21 @@
+@startuml
+
+Class Creator {
+    factoryMethod()
+    anOperation()
+}
+
+Class ConcreteCreator extends Creator {
+    factoryMethod()
+}
+
+Class Product {
+
+}
+
+Class ConcreteProduct extends Product {
+}
+
+ConcreteCreator o-- ConcreteProduct
+
+@enduml
