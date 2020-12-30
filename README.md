@@ -7,7 +7,9 @@ Book material: https://www.wickedlysmart.com/head-first-design-patterns/
 
 ### The Factory Method: Defines an interface for creating an object, but lets subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
 
-### The Abstract Factory Pattern: Provides an interface for creating families of related or dependent objects without specifying their concrete classes. 
+### The Abstract Factory Pattern: Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+
+### The Singleton Pattern: Ensures a class has only one instance, amd provides a global point of access it.  
                        
 ##Structural patterns: Explain how to assemble objects and classes into larger structures while keeping these structures flexible and efficient.
 
